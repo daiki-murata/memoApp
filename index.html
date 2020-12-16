@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メモ帳完全自力版</title>
+</head>
+<body>
+    <!-- 検索ボックスと検索ボタン
+    <div class="item">
+        <h1 id="serchBox">検索ボックス</h1>
+        <form>
+            <textarea id="search-input" 　placeholder="検索キーワードを１つ入力してください" value="1" rows="1" cols="60"></textarea>
+            <button id="search">🔎</button> -->
+        <!-- </form>  -->
+    <!-- </div> --> 
+    <!-- 入力欄 -->
+    <div class="item">
+        <h1>入力欄</h1>
+        <textarea id="textBox"  placeholder="ここに記入してください" value="2" rows="10" cols="60"></textarea>
+        <br>
+        <!-- 保存、読み込み、削除ボタンの設置 -->
+        <button id="save">保存</button>
+        <button id="clear">削除</button>
+    </div>
+    <!-- 保存データの表示 -->
+    <div class="item">
+        <h1 class="save-title">保存先</h1>
+        <ul class="saveData">
+            <li></li>
+        </ul>
+        <button id="saveClear">一つ削除</button>
+        <button id="saveClearAll">保存削除</button>
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>
